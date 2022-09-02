@@ -10,19 +10,31 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("sticky");
   }
 
-  if(scrollY > 500){
+  if (scrollY > 500) {
     scrollBtn.classList.add("active");
-  }
-   
-  else{
+  } else {
     scrollBtn.classList.remove("active");
   }
 
   scrollBtn.addEventListener("click", () => {
-       window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   });
+});
 
+// Typing animations
 
+var typed = new Typed(".typing", {
+  strings: ["Youtuber", "Developer", "Blogger", "Designer", "Freelancer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
+});
+
+var typed = new Typed(".typing-2", {
+  strings: ["Youtuber", "Developer", "Blogger", "Designer", "Freelancer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true,
 });
 
 menuBtn.addEventListener("click", () => {
@@ -30,8 +42,6 @@ menuBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("active");
   menuBtnI.classList.toggle("active");
 });
-
-
 
 $(".carousel").owlCarousel({
   margin: 20,

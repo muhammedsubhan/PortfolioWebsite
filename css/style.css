@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -139,7 +139,7 @@ section {
 .skill,
 .team,
 .contact,
-footer{
+footer {
   font-family: "Poppins", sans-serif;
 }
 
@@ -566,25 +566,25 @@ section .title::after {
 
 /* footer Section */
 
-footer{
+footer {
   background: #111;
   padding: 20px 23px;
   color: #fff;
   text-align: center;
 }
 
-footer span a{
+footer span a {
   color: crimson;
   text-decoration: none;
 }
 
-footer span a:hover{
+footer span a:hover {
   text-decoration: underline;
 }
 
 /* scroll up button */
 
-.scroll-up-btn{
+.scroll-up-btn {
   position: fixed;
   height: 45px;
   width: 42px;
@@ -603,13 +603,11 @@ footer span a:hover{
   transition: all 0.3s ease;
 }
 
-.scroll-up-btn.active{
+.scroll-up-btn.active {
   opacity: 1;
   pointer-events: auto;
   bottom: 30px;
 }
-
-
 
 /* responsive media query */
 @media (max-width: 1300px) {
